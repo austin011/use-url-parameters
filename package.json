@@ -19,7 +19,13 @@
   "scripts": {
     "build": "rollup -c"
   },
-  "keywords": [],
+  "keywords": [
+    "react",
+    "hooks",
+    "url parameters",
+    "query parameters",
+    "state"
+  ],
   "author": "",
   "license": "ISC",
   "dependencies": {
