@@ -1,0 +1,36 @@
+{
+  "name": "use-query-parameters",
+  "type": "module",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "types": "dist/index.d.ts",
+  "repository": "https://github.com/austin011/use-query-parameters.git",
+  "exports": {
+    ".": "./dist/index.js",
+    "./package.json": "./package.json"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react": "^18.3.1"
+  },
+  "devDependencies": {
+    "@rollup/plugin-typescript": "^11.1.6",
+    "@types/node": "^22.5.1",
+    "@types/react": "^18.3.4",
+    "rollup": "^4.21.1",
+    "tslib": "^2.7.0",
+    "typescript": "^5.5.4"
+  }
+}
