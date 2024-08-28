@@ -20,5 +20,6 @@
     "skipLibCheck": true
   },
 
-  "include": ["./src/**/*.ts", "src/_tests_/use-query-parameters.tsx"]
+  "include": ["./src/**/*.ts"],
+  "exclude": ["./src/_tests/**/*.ts"]
 }
