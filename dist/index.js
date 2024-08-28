@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 
-function useQueryParameters(props, setProps) {
+function useURLParameters(props, setProps) {
     const [trigger, setTrigger] = useState(false);
     const getSearchParams = () => {
         if (typeof window !== "undefined") {
@@ -46,4 +46,4 @@ function useQueryParameters(props, setProps) {
     return getSearchParams();
 }
 
-export { useQueryParameters as default };
+export { useURLParameters as default };
