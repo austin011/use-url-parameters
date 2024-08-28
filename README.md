@@ -1,4 +1,4 @@
-# useQueryParameters
+# useURLParameters
 
 An intuitive react hook that plugs URL Parameters into your react hook lifecycle.
 
