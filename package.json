@@ -13,7 +13,10 @@
   "types": "dist/index.d.ts",
   "repository": "https://github.com/austin011/use-query-parameters.git",
   "exports": {
-    ".": "./dist/index.js",
+    ".": {
+      "types": "./dist/index.js",
+      "default": "./dist/index.js"
+    },
     "./package.json": "./package.json"
   },
   "scripts": {
@@ -21,9 +24,7 @@
   },
   "keywords": [
     "react",
-    "hooks",
-    "url parameters",
-    "query parameters",
+    "react-hook",
     "state"
   ],
   "author": "",

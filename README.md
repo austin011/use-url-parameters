@@ -7,19 +7,19 @@ An intuitive react hook that plugs URL Parameters into your react hook lifecycle
 With yarn
 
 ```bash
-yarn add use-query-parameters
+yarn add use-url-parameters
 ```
 
 With npm
 
 ```bash
-npm install use-query-parameters
+npm install use-url-parameters
 ```
 
 With pnpm
 
 ```bash
-pnpm install use-query-parameters
+pnpm install use-url-parameters
 ```
 
 ## How it Works

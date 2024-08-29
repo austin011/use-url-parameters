@@ -1,6 +1,4 @@
-import { useState, useEffect } from 'react';
-
-function useURLParameters(props, setProps) {
+import {useState,useEffect}from'react';function useURLParameters(props, setProps) {
     const [trigger, setTrigger] = useState(false);
     const getSearchParams = () => {
         if (typeof window !== "undefined") {
@@ -44,6 +42,4 @@ function useURLParameters(props, setProps) {
         }
     }, Object.values(props));
     return getSearchParams();
-}
-
-export { useURLParameters as default };
+}export{useURLParameters as default};
