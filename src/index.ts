@@ -62,5 +62,7 @@ export default function useURLParameters<T extends Record<string, unknown>>(
     }
   }, Object.values(props));
 
-  return getSearchParams();
+  return {
+    hasURLParameters: getSearchParams() !== null,
+  };
 }
