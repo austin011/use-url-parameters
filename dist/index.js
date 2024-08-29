@@ -41,9 +41,8 @@ import {useState,useEffect}from'react';function useURLParameters(props, setProps
             });
         }
     }, Object.values(props));
-    const searchParams = getSearchParams();
+    getSearchParams();
     return {
-        hasURLParameters: searchParams !== null &&
-            Object.values(searchParams).every((val) => val !== null && val !== undefined && val !== ""),
+        hasURLParameters: Object.values(props).some((val) => val !== null && val !== undefined && val !== ""),
     };
 }export{useURLParameters as default};
