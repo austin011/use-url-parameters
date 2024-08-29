@@ -37,7 +37,7 @@ On State Update
 
 ```tsx
 import { useState } from "react";
-import useQueryParameters from "use-query-parameters";
+import useURLParameters from "use-url-parameters";
 
 export default function Component() {
   const [filters, setFilters] = useState({
@@ -45,7 +45,7 @@ export default function Component() {
     age: "",
   });
 
-  useQueryParameters(
+  useURLParameters(
     {
       name: filters.name,
       age: filters.age,
